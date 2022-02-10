@@ -1,5 +1,8 @@
+import java.io.BufferedWriter;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.Inet4Address;
 import java.net.ServerSocket;
@@ -10,6 +13,12 @@ public class Server{
 
     private ServerSocket serverSocket;
     private int nbrClient;
+    
+    
+
+
+
+
 
     public Server(ServerSocket ss){
         this.nbrClient = 0;
@@ -23,23 +32,34 @@ public class Server{
             System.out.println("En attente de connexion...");
             while(!this.serverSocket.isClosed()){
                 Socket sckt = this.serverSocket.accept();
-                this.nbrClient++;
+                //this.nbrClient++;
                 System.out.println("[Server] : Un nouveau client de se connecter !");
-                System.out.println("[Server] : Nombre de client : " + this.nbrClient);
+                //System.out.println("[Server] : Nombre de client : " + this.nbrClient);
+                
                 GestionnaireClient gClient = new GestionnaireClient(sckt);
-
+                
                 //Pour que le serveur n'est pas besoin d'attendre un message et se bloque on utilise un thread.
                 Thread t = new Thread(gClient);
                 t.start();
+
+
             }
 
-
-
-
-            
         } catch (IOException e) {
             //Erreur serveur
-            e.printStackTrace();
+            closeServerSocket();
+        }
+    }
+
+
+    public void closeServerSocket(){
+        try {
+            if (this.serverSocket != null) {
+                serverSocket.close();
+            }
+        }
+        catch (IOException err) {
+            err.printStackTrace();
         }
     }
 

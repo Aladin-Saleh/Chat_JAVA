@@ -1,0 +1,182 @@
+[Server](10/02/2022 08:50) : Un nouvelle utilisateur : Bob vient de se connecter.[Server](10/02/2022 08:53) : Un nouvelle utilisateur : Aladin vient de se connecter.[Server](10/02/2022 08:53) : Un nouvelle utilisateur : Bob vient de se connecter.[Bob](MSI/192.168.1.140) : Saliut[Aladin](MSI/192.168.1.140) : slt[Aladin](MSI/192.168.1.140) : a+[Bob](MSI/192.168.1.140) : a+[Bob](MSI/192.168.1.140) : null[Server] : Un client (Bob) a quitter le serveur :([Aladin](MSI/192.168.1.140) : null[Server] : Un client (Aladin) a quitter le serveur :([Server](10/02/2022 09:00) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : bonjour
+[Server](10/02/2022 09:01) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : Bonjour
+[Aladin](MSI/192.168.1.140) : /hello
+[Aladin](MSI/192.168.1.140) : null
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:02) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : salut
+[Aladin](MSI/192.168.1.140) : /hello
+[Aladin](MSI/192.168.1.140) : null
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:04) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 09:05) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 09:11) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : eu
+[Aladin](MSI/192.168.1.140) : /e
+[Aladin](MSI/192.168.1.140) : azerazeazde
+[Server](10/02/2022 09:14) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : ///
+[Aladin](MSI/192.168.1.140) : azefazefazef
+[Aladin](MSI/192.168.1.140) : null
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:15) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : /—
+[Aladin](MSI/192.168.1.140) : null
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:16) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : Bonjour
+[Aladin](MSI/192.168.1.140) : /aze
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Aladin](MSI/192.168.1.140) : /quit
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:17) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:17) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 09:18) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : aazefd
+[Aladin](MSI/192.168.1.140) : aze
+[Aladin](MSI/192.168.1.140) : azef
+[Aladin](MSI/192.168.1.140) : azef
+[Aladin](MSI/192.168.1.140) : azef
+[Aladin](MSI/192.168.1.140) : azef
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:21) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Aladin](MSI/192.168.1.140) : /quit
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:21) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : Hello
+[Aladin](MSI/192.168.1.140) : ok
+[Aladin](MSI/192.168.1.140) : a+
+[Aladin](MSI/192.168.1.140) : null
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:23) : Un nouvelle utilisateur : ALadin vient de se connecter.
+[Server] : Un client (ALadin) a quitter le serveur :(
+[Server](10/02/2022 09:34) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : /azer e
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:36) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : Hello
+[Server](10/02/2022 09:36) : Un nouvelle utilisateur : Bob vient de se connecter.
+[Server] : Un client (Bob) a quitter le serveur :(
+[Server](10/02/2022 09:36) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : /kick ok
+[Aladin](MSI/192.168.1.140) : 
+[Aladin](MSI/192.168.1.140) : /kick azera
+[Server](10/02/2022 09:38) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : /kick okjz
+[Server](10/02/2022 09:39) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : ok
+[Server](10/02/2022 09:40) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : /kick e
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 09:42) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : /kick e
+[Server](10/02/2022 09:43) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Aladin](MSI/192.168.1.140) : /kick ze
+[Server](10/02/2022 09:49) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 09:50) : Un nouvelle utilisateur : Bob vient de se connecter.
+[Bob](MSI/192.168.1.140) : Bonjour
+[Server](10/02/2022 09:53) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 09:53) : Un nouvelle utilisateur : Bob vient de se connecter.
+[Bob](MSI/192.168.1.140) : Salut
+[Bob](MSI/192.168.1.140) : /help
+[Server](10/02/2022 09:59) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 09:59) : Un nouvelle utilisateur : Henri vient de se connecter.
+[Henri](MSI/192.168.1.140) : je suis qu'une merde
+[Aladin](MSI/192.168.1.140) : ouai
+[Aladin](MSI/192.168.1.140) : /help
+[Henri](MSI/192.168.1.140) : /quiqt
+[Server] : Un client (Henri) a quitter le serveur :(
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 10:01) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 10:01) : Un nouvelle utilisateur : Rahoumane vient de se connecter.
+[Aladin](MSI/192.168.1.140) : /kick Rahoumane
+[Aladin](MSI/192.168.1.140) : grosse merde
+[Rahoumane](MSI/192.168.1.140) : /help
+[Server] : Un client (Rahoumane) a quitter le serveur :(
+[Aladin](MSI/192.168.1.140) : /quit*
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server](10/02/2022 10:07) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 10:07) : Un nouvelle utilisateur : Bob vient de se connecter.
+[Bob](MSI/192.168.1.140) : bonjur
+[Bob](MSI/192.168.1.140) : /kick Aladin
+[Server](10/02/2022 10:08) : Un nouvelle utilisateur : A vient de se connecter.
+[Server](10/02/2022 10:08) : Un nouvelle utilisateur : B vient de se connecter.
+[A](MSI/192.168.1.140) : Bonjour
+[B](MSI/192.168.1.140) : Bonjour
+[A](MSI/192.168.1.140) : message au pf
+[A](MSI/192.168.1.140) : az
+[A](MSI/192.168.1.140) : er
+[A](MSI/192.168.1.140) : azef
+[A](MSI/192.168.1.140) : 
+[A](MSI/192.168.1.140) : aze
+[A](MSI/192.168.1.140) : aze
+[A](MSI/192.168.1.140) : aez
+[A](MSI/192.168.1.140) : aze
+[A](MSI/192.168.1.140) : azef
+[B](MSI/192.168.1.140) : azef
+[B](MSI/192.168.1.140) : azef
+[B](MSI/192.168.1.140) : tg
+[B](MSI/192.168.1.140) : :)
+[B](MSI/192.168.1.140) : azef
+[B](MSI/192.168.1.140) : azef
+[B](MSI/192.168.1.140) : 
+[B](MSI/192.168.1.140) : azef
+[B](MSI/192.168.1.140) : azf
+[B](MSI/192.168.1.140) : azef
+[B](MSI/192.168.1.140) : /kick A
+[Server](10/02/2022 10:11) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Server](10/02/2022 10:11) : Un nouvelle utilisateur : Bob vient de se connecter.
+[Bob](MSI/192.168.1.140) : /kick Aladin
+[Server] : Un client (Bob) a quitter le serveur :(
+[Aladin](MSI/192.168.1.140) : ls
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Bob](MSI/192.168.1.140) : 
+[Bob](MSI/192.168.1.140) : 
+[Bob](MSI/192.168.1.140) : s
+[Server] : Un client (Bob) a quitter le serveur :(
+[Server](10/02/2022 10:21) : Un nouvelle utilisateur : Toto vient de se connecter.
+[Server](10/02/2022 10:21) : Un nouvelle utilisateur : Bob vient de se connecter.
+[Server](10/02/2022 10:22) : Un nouvelle utilisateur : Aladin vient de se connecter.
+[Toto](MSI/192.168.1.140) : salut
+[Bob](MSI/192.168.1.140) : bjr
+[Aladin](MSI/192.168.1.140) : hello
+[Toto](MSI/192.168.1.140) : On a tous la meme adresse ip 
+[Bob](MSI/192.168.1.140) : oui
+[Aladin](MSI/192.168.1.140) : oui
+[Toto](MSI/192.168.1.140) : /help
+[Toto](MSI/192.168.1.140) : vous pouvez voir les commande en faisant /help
+[Bob](MSI/192.168.1.140) : Oh
+[Aladin](MSI/192.168.1.140) : Pas mal 
+[Toto](MSI/192.168.1.140) : Je vais kick qlq1
+[Aladin](MSI/192.168.1.140) : Rip
+[Bob](MSI/192.168.1.140) : ko
+[Toto](MSI/192.168.1.140) : /kick Bob
+Bob vient de se faire kick.
+[Server] : Un client (Toto) a quitter le serveur :(
+[Bob](MSI/192.168.1.140) : 
+[Toto](MSI/192.168.1.140) : ???
+[Server] : Un client (Bob) a quitter le serveur :(
+[Toto](MSI/192.168.1.140) : 
+[Toto](MSI/192.168.1.140) : 
+[Toto](MSI/192.168.1.140) : Bizarre
+[Toto](MSI/192.168.1.140) : Ca bug je crois
+[Aladin](MSI/192.168.1.140) : Oui
+[Aladin](MSI/192.168.1.140) : 
+[Aladin](MSI/192.168.1.140) : lol
+[Toto](MSI/192.168.1.140) : e
+[Toto](MSI/192.168.1.140) : 
+[Toto](MSI/192.168.1.140) : 
+[Toto](MSI/192.168.1.140) : 
+[Aladin](MSI/192.168.1.140) : 
+[Aladin](MSI/192.168.1.140) : 
+[Aladin](MSI/192.168.1.140) : 
+[Aladin](MSI/192.168.1.140) : 
+[Toto](MSI/192.168.1.140) : Je ne recois pas tes message 
+[Aladin](MSI/192.168.1.140) : moi si
+[Aladin](MSI/192.168.1.140) : RIP
+[Server] : Un client (Aladin) a quitter le serveur :(
+[Server] : Un client (Toto) a quitter le serveur :(

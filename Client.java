@@ -13,6 +13,8 @@ public class Client {
     //Permet de recevoir les données des autres clients.
     private BufferedReader bR;
 
+    private BufferedReader lectureEcran;
+
     //Permet d'envoyer les données aux autres clients.
     private BufferedWriter bW;
     
@@ -25,12 +27,14 @@ public class Client {
     public Client(Socket s,String uN){
         try {
             this.socket = s;
-            this.userName = uN;
+            this.lectureEcran = new BufferedReader(new InputStreamReader(System.in));
             this.bR = new BufferedReader(new InputStreamReader(this.socket.getInputStream()));
             this.bW = new BufferedWriter(new OutputStreamWriter(this.socket.getOutputStream()));
+            this.userName = uN;
         }
         catch (IOException err) {
             err.printStackTrace();
+            closeAll(this.socket,this.bR,this.bW);
         }
     }
 
@@ -45,12 +49,13 @@ public class Client {
             bW.flush();
 
             //Ecoute de l'entrée de client.
-            Scanner sc = new Scanner(System.in);
+            //Scanner sc = new Scanner(System.in);
             while(this.socket.isConnected()){
-                System.out.print("["+this.userName+"] : ");
-
-                String msgSend = sc.nextLine();
-                bW.write("From ["+this.userName+"] : " + msgSend);
+                String msgSend = this.readScreen();
+                if (msgSend.equals("/quit")) {
+                    System.exit(0);
+                }
+                bW.write("["+this.userName+"]("+this.socket.getInetAddress()+") : " + msgSend);
                 bW.newLine();
                 bW.flush();
             }
@@ -58,6 +63,7 @@ public class Client {
         }
         catch (IOException err) {
             err.printStackTrace();
+            closeAll(this.socket,this.bR,this.bW);
         }
 
 
@@ -80,6 +86,7 @@ public class Client {
                     }
                     catch (IOException err) {
                         err.printStackTrace();
+                        closeAll(socket,bR,bW);
                     }
                 }                
             }
@@ -87,9 +94,39 @@ public class Client {
         }).start();
     }
 
+    public void closeAll(Socket socket,BufferedReader bR,BufferedWriter bW){
+        try {
+            if (socket != null) {
+                socket.close();
+            }
+            if (bR != null) {
+                bR.close();
+            }
+
+            if (bW != null) {
+                bW.close();
+            }
+        }
+        catch (IOException err) {
+            err.printStackTrace();
+        }
+    }
+
+    //Rmplace le Scanner.
+    public String readScreen(){
+        try {
+            return this.lectureEcran.readLine();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return null;
+    }
 
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws UnknownHostException, IOException {
         String userName;
         Socket socket;
         
@@ -98,16 +135,11 @@ public class Client {
         System.out.println("Entrer votre identifiant : ");
         userName = sc.nextLine();
 
-        try {
-            socket = new Socket(InetAddress.getLocalHost(),2727);
-            Client client = new Client(socket, userName);
-            client.listen();
-            client.sendMessage();
-        } catch (UnknownHostException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        socket = new Socket(InetAddress.getLocalHost(),2727);
+        Client client = new Client(socket, userName);
+        client.listen();
+        client.sendMessage();
+
 
 
 
